@@ -26,13 +26,25 @@
                                 <rect key="frame" x="123" y="617" width="129" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qMb-jL-qAg">
+                                <rect key="frame" x="166" y="323" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="IhB-dh-fev"/>
+                                    <constraint firstAttribute="width" constant="42" id="XRW-Xk-hQB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="e30-Z5-BgP" secondAttribute="bottom" constant="20" id="37d-xG-vce"/>
                             <constraint firstAttribute="trailingMargin" secondItem="e30-Z5-BgP" secondAttribute="trailing" constant="107" id="NGc-P7-bxG"/>
+                            <constraint firstItem="qMb-jL-qAg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Oci-ak-Hip"/>
                             <constraint firstItem="e30-Z5-BgP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="107" id="fbf-5n-FUF"/>
                             <constraint firstItem="e30-Z5-BgP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kEY-qe-2I0"/>
+                            <constraint firstItem="qMb-jL-qAg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lfd-2o-T6D"/>
                         </constraints>
                     </view>
                 </viewController>
